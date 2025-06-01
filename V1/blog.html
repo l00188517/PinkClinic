@@ -36,14 +36,15 @@
     <div class="topbar d-flex align-items-center">
       <div class="container d-flex justify-content-center justify-content-md-between">
         <div class="contact-info d-flex align-items-center">
-          <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com">contact@example.com</a></i>
-          <i class="bi bi-phone d-flex align-items-center ms-4"><span>+1 5589 8765 55</span></i>
+          <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:info@pinkclinic.com">info@pinkclinic.com</a></i>
+          <i class="bi bi-phone d-flex align-items-center ms-4"><span>+234 818 70070 56</span></i>
         </div>
         <div class="social-links d-none d-md-flex align-items-center">
           <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
           <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
           <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
           <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+          <a href="https://wa.me/2348187007056?test=I'm%20interested%20in%20your%20service"><i class="bi bi-whatsapp"></i></a>
         </div>
       </div>
     </div><!-- End Top Bar -->
@@ -63,25 +64,16 @@
             <li><a href="index.html">Home<br></a></li>
             <li class="dropdown #services"><a href="services.html"><span>Services</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul>
-                <li><a href="#">Dropdown 1</a></li>
-                <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                  <ul>
-                    <li><a href="#">Deep Dropdown 1</a></li>
-                    <li><a href="#">Deep Dropdown 2</a></li>
-                    <li><a href="#">Deep Dropdown 3</a></li>
-                    <li><a href="#">Deep Dropdown 4</a></li>
-                    <li><a href="#">Deep Dropdown 5</a></li>
-                  </ul>
-                </li>
-                <li><a href="#">Dropdown 2</a></li>
-                <li><a href="#">Dropdown 3</a></li>
-                <li><a href="#">Dropdown 4</a></li>
+                <li><a href="services.html#jump-here">Dropdown 1</a></li>
+                <li><a href="services.html#jump-here">Dropdown 2</a></li>
+                <li><a href="services.html#jump-here">Dropdown 3</a></li>
+                <li><a href="services.html#jump-here">Dropdown 4</a></li>
               </ul>
             </li>
             <li><a href="corporatecare.html">Corporate Care</a></li>
-            <li><a href="blog.html">Blog</a></li>
+            <li><a href="#" class="active">Blog</a></li>
             <li><a href="faq.html">FAQs</a></li>
-            <li><a href="#" class="active">Contact</a></li>
+            <li><a href="contact.html">Contact</a></li>
             <li><a class="cta-btn d-sm-block" href="appointment.html"><strong>Book an Appointment</strong></a></li>
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -95,93 +87,137 @@
 
   <main class="main">
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact section">
+    <!-- Blog Posts Section -->
+    <section id="blog-posts" class="blog-posts section">
 
       <!-- Section Title -->
-      <!--<div class="container section-title" data-aos="fade-up">
-        <h2 class="heading-font">Contact</h2>
-        <p></p>
-      </div> End Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Blog Posts</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="row gy-4">
 
-          <div class="col-lg-5">
-
-            <div class="info-wrap">
-              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
-                <i class="bi bi-geo-alt flex-shrink-0"></i>
-                <div>
-                  <h3 class="heading-font">Address</h3>
-                  <p>Mainland Lagos- 13B Muri Folami street Pako</p>
-                </div>
-              </div><!-- End Info Item -->
-
-              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
-                <i class="bi bi-telephone flex-shrink-0"></i>
-                <div>
-                  <h3 class="heading-font">Call Us</h3>
-                  <p>+234 0818 70070 56</p>
-                  <p>+234 0809 78186 07</p>
-                </div>
-              </div><!-- End Info Item -->
-
-              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
-                <i class="bi bi-envelope flex-shrink-0"></i>
-                <div>
-                  <h3 class="heading-font">Email Us</h3>
-                  <p>info@example.com</p>
-                </div>
-              </div><!-- End Info Item -->
-
-              <iframe src="https://maps.google.com/maps?width=100%25&amp;height=270&amp;hl=en&amp;q=Mainland%20Lagos-%2013B%20Muri%20Folami%20street%20Pako+(Pink%20Clinic)&amp;t=&amp;z=11&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-          </div>
-
-          <div class="col-lg-7">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
-              <div class="row gy-4">
-
-                <div class="col-md-6">
-                  <label for="name-field" class="pb-2">Your Name</label>
-                  <input type="text" name="name" id="name-field" class="form-control" required="">
-                </div>
-
-                <div class="col-md-6">
-                  <label for="email-field" class="pb-2">Your Email</label>
-                  <input type="email" class="form-control" name="email" id="email-field" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <label for="subject-field" class="pb-2">Subject</label>
-                  <input type="text" class="form-control" name="subject" id="subject-field" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <label for="message-field" class="pb-2">Message</label>
-                  <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
-                </div>
-
-                <div class="col-md-12 text-center">
-                  <!-- <div class="loading">Loading</div> -->
-                  <!-- <div class="error-message"></div> -->
-                  <!-- <div class="sent-message">Your message has been sent. Thank you!</div> -->
-
-                  <button type="submit">Send Message</button>
-                </div>
-
+          <div class="col-xl-6" data-aos="fade-up" data-aos-delay="100">
+            <article class="post-item d-flex">
+              <div class="post-img">
+                <img src="assets/img/blog/blog-post-1.webp" alt="" class="img-fluid" loading="lazy">
               </div>
-            </form>
-          </div><!-- End Contact Form -->
+
+              <div class="post-content flex-grow-1">
+                <a href="#" class="category">Design</a>
+
+                <h2 class="post-title">
+                  <a href="blog_details.html">Sed ut perspiciatis unde omnis</a>
+                </h2>
+
+                <p class="post-description">
+                  Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores.
+                </p>
+
+                <div class="post-meta">
+                  <div class="post-author">
+                    <img src="assets/img/person/person-f-12.webp" alt="" class="img-fluid">
+                    <span class="author-name">Lina Chen</span>
+                  </div>
+                  <span class="post-date">Mar 15, 2025</span>
+                </div>
+              </div>
+            </article>
+          </div><!-- End post item -->
+
+          <div class="col-xl-6" data-aos="fade-up" data-aos-delay="200">
+            <article class="post-item d-flex">
+              <div class="post-img">
+                <img src="assets/img/blog/blog-post-2.webp" alt="" class="img-fluid" loading="lazy">
+              </div>
+
+              <div class="post-content flex-grow-1">
+                <a href="#" class="category">Product</a>
+
+                <h2 class="post-title">
+                  <a href="blog_details.html">At vero eos et accusamus</a>
+                </h2>
+
+                <p class="post-description">
+                  Et harum quidem rerum facilis est et expedita distinctio nam libero tempore, cum soluta nobis est eligendi.
+                </p>
+
+                <div class="post-meta">
+                  <div class="post-author">
+                    <img src="assets/img/person/person-f-13.webp" alt="" class="img-fluid">
+                    <span class="author-name">Sofia Rodriguez</span>
+                  </div>
+                  <span class="post-date">Apr 22, 2025</span>
+                </div>
+              </div>
+            </article>
+          </div><!-- End post item -->
+
+          <div class="col-xl-6" data-aos="fade-up" data-aos-delay="300">
+            <article class="post-item d-flex">
+              <div class="post-img">
+                <img src="assets/img/blog/blog-post-3.webp" alt="" class="img-fluid" loading="lazy">
+              </div>
+
+              <div class="post-content flex-grow-1">
+                <a href="#" class="category">Software Engineering</a>
+
+                <h2 class="post-title">
+                  <a href="blog_details.html">Temporibus autem quibusdam</a>
+                </h2>
+
+                <p class="post-description">
+                  Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur.
+                </p>
+
+                <div class="post-meta">
+                  <div class="post-author">
+                    <img src="assets/img/person/person-m-10.webp" alt="" class="img-fluid">
+                    <span class="author-name">Lucas Thompson</span>
+                  </div>
+                  <span class="post-date">May 8, 2025</span>
+                </div>
+              </div>
+            </article>
+          </div><!-- End post item -->
+
+          <div class="col-xl-6" data-aos="fade-up" data-aos-delay="400">
+            <article class="post-item d-flex">
+              <div class="post-img">
+                <img src="assets/img/blog/blog-post-4.webp" alt="" class="img-fluid" loading="lazy">
+              </div>
+
+              <div class="post-content flex-grow-1">
+                <a href="#" class="category">Creative</a>
+
+                <h2 class="post-title">
+                  <a href="blog_details.html">Nam libero tempore soluta</a>
+                </h2>
+
+                <p class="post-description">
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+
+                <div class="post-meta">
+                  <div class="post-author">
+                    <img src="assets/img/person/person-f-14.webp" alt="" class="img-fluid">
+                    <span class="author-name">Emma Patel</span>
+                  </div>
+                  <span class="post-date">Jun 30, 2025</span>
+                </div>
+              </div>
+            </article>
+          </div><!-- End post item -->
 
         </div>
 
       </div>
 
-    </section><!-- /Contact Section -->
-
+    </section><!-- /Blog Posts Section -->
+    
   </main>
 
   <footer id="footer" class="footer position-relative light-background">
@@ -195,16 +231,17 @@
           <div class="footer-contact pt-3">
             <p><strong>Opening Hours</strong></p>
             <p><strong>Mon - Sat:</strong> 8am - 6pm</p>
-            <p class="mt-3"><strong>Phone:</strong> <span>+234 0818 70070 56</span></p>
-            <p><strong>Phone:</strong> <span>+234 0809 78186 07</span></p>
-            <p><strong>Email:</strong> <span>info@example.com</span></p>
-            
+            <p><strong>Sunday:</strong> 9am - 3pm</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>+234 818 70070 56</span></p>
+            <p><strong>Phone:</strong> <span>+234 809 78186 07</span></p>
+            <p><strong>Email:</strong> <a href="#footer">info@PinkClinic.com</a></p>
           </div>
           <div class="social-links d-flex mt-4">
             <a href=""><i class="bi bi-twitter-x"></i></a>
             <a href=""><i class="bi bi-facebook"></i></a>
             <a href=""><i class="bi bi-instagram"></i></a>
             <a href=""><i class="bi bi-linkedin"></i></a>
+            <a href="https://wa.me/2348187007056?test=I'm%20interested%20in%20your%20service"><i class="bi bi-whatsapp"></i></a>
           </div>
         </div>
 
@@ -263,6 +300,7 @@
   </footer>
 
   <!-- Scroll Top -->
+  <a href="https://wa.me/353851446783?test=I'm%20interested%20in%20your%20service" class="whatsap-top d-flex align-items-center justify-content-center"><img src="assets/img/whatsapp.png" width="40px" height="40px"></a>
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Preloader -->

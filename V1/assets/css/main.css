@@ -7,6 +7,7 @@
   --default-font: "Trebuchet MS",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --heading-font: "Merriweather",  sans-serif;
   --custome-font: "Pacifico", sans-serif;
+  --custome-font-heading: "Roboto", "Arial", sans-serif;
   --nav-font: "Georgia",  sans-serif;
 }
 
@@ -639,6 +640,16 @@ h6 {
   transition: all 0.4s;
 }
 
+.whatsap-top {
+  position: fixed;
+  right: 15px;
+  bottom: 65px;
+  z-index: 99999;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+}
+
 .scroll-top i {
   font-size: 24px;
   color: var(--contrast-color);
@@ -817,7 +828,7 @@ section,
   background-color: #ffffffb0;
 }
 .hero .content {
-  margin-top: 40px;
+  margin-top: 10px;
 }
 
 .hero .content .why-box {

@@ -151,4 +151,10 @@
   window.addEventListener('load', navmenuScrollspy);
   document.addEventListener('scroll', navmenuScrollspy);
 
+  /**
+   * Footer Update Year of Copyright
+   */
+  document.getElementById('copyright-year').textContent = new Date().getFullYear();
+
+
 })();

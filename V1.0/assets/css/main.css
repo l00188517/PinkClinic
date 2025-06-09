@@ -2682,3 +2682,8 @@ section,
     padding-right: 20px;
   }
 }
+
+
+contact-float-left{
+  flex-wrap: inherit;
+}

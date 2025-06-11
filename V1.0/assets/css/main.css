@@ -2432,7 +2432,7 @@ section,
 }
 
 .features .advanced-features-section .advanced-feature-card .feature-content p {
-  font-size: 15px;
+  font-size: 18px;
   line-height: 1.6;
   color: color-mix(in srgb, var(--default-color), transparent 25%);
   margin-bottom: 20px;
@@ -2448,7 +2448,7 @@ section,
   display: flex;
   align-items: center;
   gap: 10px;
-  font-size: 14px;
+  font-size: 16px;
   color: color-mix(in srgb, var(--default-color), transparent 20%);
   margin-bottom: 8px;
 }

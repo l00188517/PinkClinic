@@ -2707,8 +2707,8 @@ contact-float-left{
 .clients .client-item img {
   max-width: 100%;
   transition: all 0.3s ease-in-out;
-  filter: grayscale(100);
-  opacity: 0.8;
+  /*filter: grayscale(100);*/
+  opacity: 0.6;
 }
 
 .clients .client-item:hover {

@@ -78,7 +78,7 @@
             <li><a href="blog.html">Blog</a></li>
             <li><a href="faq.html">FAQs</a></li>
             <li><a href="contact.html">Contact</a></li>
-            <li><a class="cta-btn d-sm-block" href="appointment.html"><strong>Book an Appointment</strong></a></li>
+            <li><a class="cta-btn d-sm-block" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/pinkclinicng/30min?hide_event_type_details=1&hide_gdpr_banner=1&primary_color=ee5d9e'});return false;"><strong>Book an Appointment</strong></a></li>
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
@@ -265,6 +265,12 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <!-- Calendly link widget begin -->
+  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+  <!-- Callendry JS Files -->
+  <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+
 
 </body>
 

@@ -78,7 +78,7 @@
             <li><a href="blog.html">Blog</a></li>
             <li><a href="faq.html">FAQs</a></li>
             <li><a href="contact.html">Contact</a></li>
-            <li><a class="cta-btn d-sm-block" href="appointment.html"><strong>Book an Appointment</strong></a></li>
+            <li><a class="cta-btn d-sm-block" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/pinkclinicng/30min?hide_event_type_details=1&hide_gdpr_banner=1&primary_color=ee5d9e'});return false;"><strong>Book an Appointment</strong></a></li>
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
@@ -110,7 +110,7 @@
               <div> Restore your confidence with reliable screening and treatment of Sexually Transmitted Infections (STIs)<br></div>
               <p></p>
               <div class="text-center">
-                <a href="appointment.html" class="more-btn"><span>Book an Appointment</span> </a>
+                <a class="more-btn d-sm-block" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/pinkclinicng/30min?hide_event_type_details=1&hide_gdpr_banner=1&primary_color=ee5d9e'});return false;"><strong>Book an Appointment</strong></a>
               </div>
             </div>
           </div><!-- End Why Box -->
@@ -220,7 +220,8 @@
               Worse still, is that you don’t know where to access reliable and professional treatment without being judged.<br>
               The truth is… You don’t have to suffer in silence. You deserve more.<br>
             </p>
-            <a class="cta-btn align-self-start" href="appointment.html">Book an Appointment<br></a>
+            <!--<a class="cta-btn align-self-start" href="appointment.html">Book an Appointment<br></a>-->
+            <a class="cta-btn align-self-start" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/pinkclinicng/30min?hide_event_type_details=1&hide_gdpr_banner=1&primary_color=ee5d9e'});return false;"><strong>Book an Appointment</strong></a>
           </div>
 
           <div class="col-lg-4 col-md-6 order-first order-md-last d-flex align-items-center">
@@ -255,7 +256,7 @@
               You restore your confidence so you can quickly get back to the life you have always known.<br>
               
             </p>
-            <a class="cta-btn align-self-start" href="appointment.html">Book an Appointment</a>
+            <a class="cta-btn align-self-start" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/pinkclinicng/30min?hide_event_type_details=1&hide_gdpr_banner=1&primary_color=ee5d9e'});return false;"><strong>Book an Appointment</strong></a>
           </div>
 
           <div class="col-lg-4 col-md-6 order-first order-md-last d-flex align-items-center">
@@ -290,7 +291,7 @@
                           We listen- we don’t judge. Tell it all to our team during your virtual or physical consultation<br>
 
             </p>
-            <a class="cta-btn align-self-start" href="appointment.html">Book an Appointment</a>
+            <a class="cta-btn align-self-start" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/pinkclinicng/30min?hide_event_type_details=1&hide_gdpr_banner=1&primary_color=ee5d9e'});return false;"><strong>Book an Appointment</strong></a>
           </div>
 
           <div class="col-lg-4 col-md-6 order-first order-md-last d-flex align-items-center">
@@ -668,6 +669,11 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <!-- Calendly link widget begin -->
+  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+  <!-- Callendry JS Files -->
+  <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
 
 </body>
 

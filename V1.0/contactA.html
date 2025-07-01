@@ -23,7 +23,6 @@
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
@@ -60,7 +59,7 @@
         
         <nav id="navmenu" class="navmenu">
           <ul>
-            <li><a href="#" class="active">Home<br></a></li>
+            <li><a href="index.html">Home<br></a></li>
             <li class="dropdown #services"><a href="services.html"><span>Services</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul>
                 <li><a href="services.html#services">Our Services</a></li>
@@ -78,7 +77,7 @@
             </li>
             <li><a href="blog.html">Blog</a></li>
             <li><a href="faq.html">FAQs</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#" class="active">Contact</a></li>
             <li><a class="cta-btn d-sm-block" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/pinkclinicng/30min?hide_event_type_details=1&hide_gdpr_banner=1&primary_color=ee5d9e'});return false;"><strong>Book an Appointment</strong></a></li>
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -92,239 +91,106 @@
 
   <main class="main">
 
-    <!-- Hero Section -->
-    <section id="hero" class="hero section light-background">
-
-      <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in" class="">
-
-      <div class="container position-relative">
-
-        <div class="welcome position-relative" data-aos="fade-down" data-aos-delay="100">
-          <H2 class="heading-font">Welcome To Pink Clinic</H2>
-          <p><span>Safe and Private Sexual Health Care Services.</span></p>
-        </div><!-- End Welcome -->
-
-        <div class="content row gy-4">
-          <div class="col-lg-4 d-flex align-items-stretch">
-            <div class="why-box" data-aos="zoom-out" data-aos-delay="200">
-              <h4 class="white">Struggling with Sexually Transmitted Infections?</h4>
-              <div> Restore your confidence with reliable screening and treatment of Sexually Transmitted Infections (STIs)<br></div>
-              <p></p>
-              <div class="text-center">
-                <a class="more-btn d-sm-block" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/pinkclinicng/30min?hide_event_type_details=1&hide_gdpr_banner=1&primary_color=ee5d9e'});return false;"><strong>Book an Appointment</strong></a>
-              </div>
-            </div>
-          </div><!-- End Why Box -->
-
-          <div class="col-lg-8 d-flex align-items-stretch">
-            <div class="d-flex flex-column justify-content-center">
-              <div class="row gy-4">
-
-                <div class="col-xl-4 d-flex align-items-stretch">
-                  <div class="icon-box" data-aos="zoom-out" data-aos-delay="300">
-                    <h4 class="custome-font-heading">Safe</h4>
-                    <div class="custome-font-heading">Our team of trained sexual healthcare professionals ensures that you get quality health care services from start to finish.</div>
-                  </div>
-                </div><!-- End Icon Box -->
-
-                <div class="col-xl-4 d-flex align-items-stretch">
-                  <div class="icon-box" data-aos="zoom-out" data-aos-delay="400">
-                    <h4 class="custome-font-heading">Confidential</h4>
-                    <div class="custome-font-heading">No one has to know… We don’t kiss and tell. Every service at the clinic is between you and your assigned healthcare provider.</div>
-                  </div>
-                </div><!-- End Icon Box -->
-
-                <div class="col-xl-4 d-flex align-items-stretch">
-                  <div class="icon-box" data-aos="zoom-out" data-aos-delay="500">
-                    <!-- <i class="bi bi-inboxes"></i> -->
-                    <h4 class="custome-font-heading">Non-Judgemental</h4>
-                    <div class="custome-font-heading">We listen, we don’t judge. Tell it all to our team during your virtual or physical consultation</div>
-                  </div>
-                </div><!-- End Icon Box -->
-
-              </div>
-            </div>
-          </div>
-        </div><!-- End  Content-->
-
-      </div>
-
-    </section><!-- /Hero Section -->
-
-    <!-- Slider Section -->
-    <section id="slider" class="slider section light-background">
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
 
       <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h4>Our Clients</h4>
-      </div><!-- End Section Title -->
+      <!--<div class="container section-title" data-aos="fade-up">
+        <h2 class="heading-font">Contact</h2>
+        <p></p>
+      </div> End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="swiper init-swiper">
+        <div class="row gy-4">
 
-          <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 600,
-              "autoplay": {
-                "delay": 5000
-              },
-              "slidesPerView": "auto",
-              "centeredSlides": true,
-              "pagination": {
-                "el": ".swiper-pagination",
-                "type": "bullets",
-                "clickable": true
-              },
-              "navigation": {
-                "nextEl": ".swiper-button-next",
-                "prevEl": ".swiper-button-prev"
-              }
-            }
-          </script>
+          <div class="col-lg-12">
+            
+            <div class="info-wrap">
 
-          <div class="swiper-wrapper">
+              <div class="row g-3 contact-float-left">
 
-            <div class="swiper-slide" >
-              <div class="content">
-                <img src="assets/img/clients/clients_1.jpeg" width="75%" height="75%" alt="Client 1">
-              </div>
-            </div>
+                <div class="col-md-6" data-aos="zoom-in" data-aos-delay="400">
+                  <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                    <i class="bi bi-geo-alt flex-shrink-0"></i>
+                    <div>
+                      <h3>Address</h3>
+                      <p><strong>Mainland Lagos:</strong>13B Muri Folami street, Pako, Ogudu Gra, Lagos</p>
+                      <p><strong>Island Lagos:</strong>16B Fola Osibo Street, Off Adebayo Doherty, Lekki Phase 1, Lagos</p>
+                    </div>
+                  </div><!-- End Info Item -->
+                </div>
 
-            <div class="swiper-slide" >
-              <div class="content">
-                <img src="assets/img/clients/clients_2.jpeg" width="75%" height="75%" alt="Client 1">
-              </div>
-            </div>
+                <div class="col-md-3" data-aos="zoom-in" data-aos-delay="400">
+                  <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                    <i class="bi bi-telephone flex-shrink-0"></i>
+                    <div>
+                      <h3>Call Us</h3>
+                      <p><a href="tel:+23408187007056">+234 0818 70070 56</a></p>
+                      <p><a href="tel:+2348097818607">+234 809 78186 07</a></p>
+                    </div>
+                  </div><!-- End Info Item -->
+                </div>
 
-            <div class="swiper-slide" >
-              <div class="content">
-                <img src="assets/img/clients/clients_3.jpeg" width="75%" height="75%" alt="Client 1">
-              </div>
-            </div>
-
-            <div class="swiper-slide" >
-              <div class="content">
-                <img src="assets/img/clients/clients_4.jpeg" width="75%" height="75%" alt="Client 1">
-              </div>
-            </div>
-          </div>
-
-          <div class="swiper-button-next"></div>
-          <div class="swiper-button-prev"></div>
-
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-
-    </section><!-- /Slider Section -->
-
-    <!-- Call To Action 3 Section -->
-    <section id="call-to-action-3" class="call-to-action-3 section">
-
-      <div class="container" data-aos="zoom-out">
-
-        <div class="row g-5">
-
-          <div class="col-lg-8 col-md-6 content d-flex flex-column justify-content-center order-last order-md-first">
-            <h3>You don’t have to suffer in silence.</h3>
-            <p>  
-              STIs cause you to be sick. And if left untreated, they damage your organs and body systems.<br>
-              You experience discomfort with common symptoms like itching, sores and bumps around your private area. 
-              You may even experience pain while urinating or during sexual intercourse. (Note that some STIs don’t show any physical symptoms).<br>
-              This can be embarrassing. You lose your self-esteem, become withdrawn from your partner(s), family, friends and the society. 
-              You feel imprisoned. And this may gradually lead you to a state of depression.<br>
-              Worse still, is that you don’t know where to access reliable and professional treatment without being judged.<br>
-              The truth is… You don’t have to suffer in silence. You deserve more.<br>
-            </p>
-            <!--<a class="cta-btn align-self-start" href="appointment.html">Book an Appointment<br></a>-->
-            <a class="cta-btn align-self-start" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/pinkclinicng/30min?hide_event_type_details=1&hide_gdpr_banner=1&primary_color=ee5d9e'});return false;"><strong>Book an Appointment</strong></a>
-          </div>
-
-          <div class="col-lg-4 col-md-6 order-first order-md-last d-flex align-items-center">
-            <div class="img">
-              <img src="assets/img/cta_0.jpg" alt="" class="img-fluid">
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-
-    </section><!-- /Call To Action 3 Section -->
-
-    <!-- Call To Action Section -->
-    <section id="call-to-action" class="call-to-action section">
-
-      <div class="container" data-aos="zoom-out">
-
-        <div class="row g-5">
-
-          <div class="col-lg-8 col-md-6 content d-flex flex-column justify-content-center order-last order-md-first">
-            <h3>Become free from Sexually Transmitted Infections (STIs).</h3>
-            <p> 
-              At Pink Clinic, we can help you achieve an infection-free status in several ways:<br>
-              ✔	We listen actively and provide non-judgemental guidance and counselling. 
-              This helps manage the mental stress you experience, knowing your STI status. <br>  
-
-              ✔	We undertake thorough screenings you can rely on so we know exactly what we are dealing with.<br>
-
-              ✔	Our treatment helps you become free from STIs. 
-              You restore your confidence so you can quickly get back to the life you have always known.<br>
+                <div class="col-md-3" data-aos="zoom-in" data-aos-delay="400">
+                  <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                    <i class="bi bi-envelope flex-shrink-0"></i>
+                    <div>
+                      <h3>Email Us</h3>
+                      <p><a href="mailto:info@pinkclinicng.com">info@PinkClincNG.com</a></p>
+                    </div>
+                  </div><!-- End Info Item -->
+                </div>
+                <!--<iframe src="https://maps.google.com/maps?width=100%25&amp;height=270&amp;hl=en&amp;q=Mainland%20Lagos-%2013B%20Muri%20Folami%20street%20Pako+(Pink%20Clinic)&amp;t=&amp;z=11&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+                <iframe src="https://www.google.com/maps/d/embed?mid=11UwwDn5V_SMN3B56ylFxPizrYZToPb0&ehbc=2E312F&noprof=1" width="100%" height="480"></iframe>          
               
-            </p>
-            <a class="cta-btn align-self-start" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/pinkclinicng/30min?hide_event_type_details=1&hide_gdpr_banner=1&primary_color=ee5d9e'});return false;"><strong>Book an Appointment</strong></a>
-          </div>
-
-          <div class="col-lg-4 col-md-6 order-first order-md-last d-flex align-items-center">
-            <div class="img">
-              <img src="assets/img/cta_1.jpg" alt="" class="img-fluid">
+              </div>
+            
+            
             </div>
           </div>
+          <!-- Contact Form 
+          <div class="col-lg-7">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <label for="name-field" class="pb-2">Your Name</label>
+                  <input type="text" name="name" id="name-field" class="form-control" required="">
+                </div>
+
+                <div class="col-md-6">
+                  <label for="email-field" class="pb-2">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="subject-field" class="pb-2">Subject</label>
+                  <input type="text" class="form-control" name="subject" id="subject-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="message-field" class="pb-2">Message</label>
+                  <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                   <div class="loading">Loading</div> 
+                   <div class="error-message"></div> 
+                   <div class="sent-message">Your message has been sent. Thank you!</div> 
+
+                  <button type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+          </div>End Contact Form -->
 
         </div>
 
       </div>
 
-    </section><!-- /Call To Action Section -->
-
-    <!-- Call To Action 2 Section -->
-    <section id="call-to-action-2" class="call-to-action-2 section">
-
-      <div class="container" data-aos="zoom-out">
-
-        <div class="row g-5">
-
-          <div class="col-lg-8 col-md-6 content d-flex flex-column justify-content-center order-last order-md-first">
-            <h3>Get Help.</h3>
-            <p> 
-              ✔	Safe Care <br>
-                          Our team of trained sexual health professionals ensures you get quality health care services 
-                          from start to finish<br>
-              ✔	Private & Confidentiality <br>
-                          No one has to know- we don’t kiss and tell. Every service at the clinic is confidential, 
-                          just the two of us. If a third person knows then it’s definitely from you. <br>
-              ✔	Non-Judgmental <br>
-                          We listen- we don’t judge. Tell it all to our team during your virtual or physical consultation<br>
-
-            </p>
-            <a class="cta-btn align-self-start" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/pinkclinicng/30min?hide_event_type_details=1&hide_gdpr_banner=1&primary_color=ee5d9e'});return false;"><strong>Book an Appointment</strong></a>
-          </div>
-
-          <div class="col-lg-4 col-md-6 order-first order-md-last d-flex align-items-center">
-            <div class="img">
-              <img src="assets/img/cta_2.jpg" alt="" class="img-fluid">
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-
-    </section><!-- /Call To Action 2 Section -->
-
+    </section><!-- /Contact Section -->
 
     <!-- Testimonials 4 Section -->
     <section id="testimonials-4" class="testimonials-4 section">
@@ -552,47 +418,6 @@
 
     </section><!-- /Testimonials 4 Section -->
 
-   <!-- Stats Section 
-   <section id="stats" class="stats section">
-
-    <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-      <div class="row gy-4">
-
-        <div class="col-lg-3 col-md-6">
-          <div class="stats-item text-center w-100 h-100">
-            <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-            <p>TikTok</p>
-          </div>
-        </div><!-- End Stats Item
-
-        <div class="col-lg-3 col-md-6">
-          <div class="stats-item text-center w-100 h-100">
-            <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Facebook</p>
-          </div>
-        </div><!-- End Stats Item 
-
-        <div class="col-lg-3 col-md-6">
-          <div class="stats-item text-center w-100 h-100">
-            <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Instagram</p>
-          </div>
-        </div><!-- End Stats Item 
-
-        <div class="col-lg-3 col-md-6">
-          <div class="stats-item text-center w-100 h-100">
-            <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Awards</p>
-          </div>
-        </div><!-- End Stats Item 
-
-      </div>
-
-    </div>
-
-  </section> /Stats Section -->
-
   </main>
 
   <footer id="footer" class="footer position-relative light-background">
@@ -676,7 +501,7 @@
   <a href="tel:+2348097818607" class="call-top d-flex align-items-center justify-content-center"><img src="assets/img/call.png" width="40px" height="40px"></a>
   <a href="https://wa.me/2348097818607?test=I'm%20interested%20in%20your%20service" class="whatsap-top d-flex align-items-center justify-content-center"><img src="assets/img/whatsapp.png" width="40px" height="40px"></a>
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
- 
+
   <!-- Preloader -->
   <div id="preloader"></div>
 
@@ -685,8 +510,6 @@
   <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>

@@ -1151,7 +1151,7 @@ section,
 .contact .contact-info-box .info-content p {
   margin-bottom: 5px;
   color: color-mix(in srgb, var(--default-color), transparent 20%);
-  font-size: 15px;
+  font-size: 18px;
   line-height: 1.5;
 }
 
@@ -1527,59 +1527,39 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Testimonials 4 Section
+# Testimonials Section
 --------------------------------------------------------------*/
-.testimonials-4 .testimonial-item {
-  background-color: var(--surface-color);
-  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.1);
-  padding: 30px;
-  position: relative;
-  height: 100%;
+.testimonials .testimonial-item {
+  background-color: color-mix(in srgb, var(--default-color), transparent 96%);
+  padding: 24px;
+  border-radius: 8px;
+  transition: all 0.3s;
 }
 
-.testimonials-4 .testimonial-item .testimonial-img {
-  width: 90px;
-  border-radius: 50px;
-  border: 6px solid var(--background-color);
-  float: left;
-  margin: 0 10px 0 0;
+.testimonials .testimonial-item .stars {
+  margin-bottom: 16px;
+  color: #f7b50d;
 }
 
-.testimonials-4 .testimonial-item h3 {
+.testimonials .testimonial-item .stars i {
   font-size: 18px;
-  font-weight: bold;
-  margin: 10px 0 5px 0;
+  margin: 0 2px;
 }
 
-.testimonials-4 .testimonial-item h4 {
-  font-size: 14px;
-  color: color-mix(in srgb, var(--default-color), transparent 20%);
-  margin: 0;
-}
-
-.testimonials-4 .testimonial-item .stars {
-  margin: 10px 0;
-}
-
-.testimonials-4 .testimonial-item .stars i {
-  color: #ffc107;
-  margin: 0 1px;
-}
-
-.testimonials-4 .testimonial-item .quote-icon-left,
-.testimonials-4 .testimonial-item .quote-icon-right {
+.testimonials .testimonial-item .quote-icon-left,
+.testimonials .testimonial-item .quote-icon-right {
   color: color-mix(in srgb, var(--accent-color), transparent 50%);
   font-size: 26px;
   line-height: 0;
 }
 
-.testimonials-4 .testimonial-item .quote-icon-left {
+.testimonials .testimonial-item .quote-icon-left {
   display: inline-block;
   left: -5px;
   position: relative;
 }
 
-.testimonials-4 .testimonial-item .quote-icon-right {
+.testimonials .testimonial-item .quote-icon-right {
   display: inline-block;
   right: -5px;
   position: relative;
@@ -1587,11 +1567,70 @@ section,
   transform: scale(-1, -1);
 }
 
-.testimonials-4 .testimonial-item p {
+.testimonials .testimonial-item p {
+  font-size: 15px;
   font-style: italic;
-  margin: 15px 0 0 0;
-  padding: 0;
+  margin: 0 0 20px 0;
 }
+
+.testimonials .testimonial-item .profile {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.testimonials .testimonial-item .profile .testimonial-img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.testimonials .testimonial-item .profile .info h4 {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 0 4px 0;
+}
+
+.testimonials .testimonial-item .profile .info h4 i {
+  font-size: 14px;
+  color: var(--accent-color);
+  margin-left: 4px;
+}
+
+.testimonials .testimonial-item .profile .info span {
+  font-size: 14px;
+  color: color-mix(in srgb, var(--default-color), transparent 30%);
+}
+
+.testimonials .swiper-wrapper {
+  height: auto !important;
+}
+
+.testimonials .swiper-pagination {
+  margin-top: 30px;
+  position: relative;
+}
+
+.testimonials .swiper-pagination .swiper-pagination-bullet {
+  width: 8px;
+  height: 8px;
+  background-color: color-mix(in srgb, var(--default-color), transparent 70%);
+  opacity: 1;
+}
+
+.testimonials .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: var(--accent-color);
+  width: 20px;
+  border-radius: 4px;
+}
+
+@media (max-width: 1199.98px) {
+  .testimonials .testimonial-item {
+    margin: 0;
+  }
+}
+
 
 /*--------------------------------------------------------------
 # Stats Section
@@ -2720,7 +2759,7 @@ section,
 }
 
 .pricing .plan-pricing .amount {
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 700;
   color: var(--heading-color);
   line-height: 1;
@@ -2799,7 +2838,7 @@ section,
 
 @media (max-width: 768px) {
   .pricing .plan-pricing .amount {
-    font-size: 48px;
+    font-size: 45px;
   }
 
   .pricing .plan-header {

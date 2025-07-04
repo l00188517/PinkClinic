@@ -2929,7 +2929,7 @@ section,
   padding-bottom: 20px;
 }
 .slider .swiper-slide-block {
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
 .slider .swiper-slide::before {

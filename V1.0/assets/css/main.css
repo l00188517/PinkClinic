@@ -2930,6 +2930,8 @@ section,
 }
 .slider .swiper-slide-block {
   margin-bottom: 5px;
+  /*background-color: #ee5d9e3d;
+  border-radius: 5px;*/
 }
 
 .slider .swiper-slide::before {

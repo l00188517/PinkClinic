@@ -2525,7 +2525,7 @@ section,
   background-color: var(--surface-color);
   padding: 35px;
   border-radius: 16px;
-  height: 100%;
+  height: auto !important;
   position: relative;
   overflow: hidden;
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 92%);
@@ -2618,7 +2618,7 @@ section,
   display: flex;
   align-items: center;
   gap: 10px;
-  font-size: 16px;
+  font-size: 18px;
   color: color-mix(in srgb, var(--default-color), transparent 20%);
   margin-bottom: 8px;
 }
@@ -2974,4 +2974,25 @@ section,
   align-items: center;
   width: 100%;  /* Ensures the content div takes the full width of the slide */
   height: 100%; /* Ensures the content div takes the full height of the slide */
+}
+
+/*--------------------------------------------------------------
+# Service icon images Section
+--------------------------------------------------------------*/
+
+.icon-images {
+  height: 100px; 
+  width: 100px;
+  border-radius: 10%;
+}
+
+/*--------------------------------------------------------------
+# The "Fixed Header" Overlap to id tags
+--------------------------------------------------------------*/
+
+#vaccinations, 
+#sensitization, 
+#vitamintherapy, 
+#birthcontrol {
+  scroll-margin-top: 100px; /* Adjust this to match the height of your header */
 }
